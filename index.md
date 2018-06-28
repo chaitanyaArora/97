@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/chaitanyaArora/97/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chaitanyaArora/97/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abhishek Pathak</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">ABHISHEK PATHAK</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3>.....</h3>
+      <img src="images/IMG-20171105-WA0002.jpg" alt="abhishek" width="100%" height="100%" class="profile"> </div>
+    <div class="column">
+      <p>I'm a person with a lust for Organized things. Only other thing which I want to master, is the power of persuasion. So, if anybody in need, they can consider me as a "Simple Man with an Organized Plan" </p>
+      <p>If all jokes aside (which I'm not fond of), my strengths are: 'Adaptiveness, Organized, Persuasive, Hardworking (like everyone according to their resume), and a bit of impression for understanding emotions'. And as far as the weaknesses are concerned, you are not gonna able to distinguish them without my permission. And just for the record 'Alphaazmuth' is a name I liked, so made it my pet name (No strings attached).</p>
+    </div>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail"> <a href="whoami.html"><img src="images/trustmeanengineer.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>ABOUT ME</h4>
+      <p class="tag">Click to know more about me</p>
+<!--      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+    </div>
+<!--
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+-->
+<!--
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+-->
+<!--
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+-->
+<!--  <div class="gallery">-->
+    <div class="thumbnail"> <a href="https://alphaazmuth.blogspot.in" target="_blank"
+     ><img src="images/AlphaAzmuthLogo.png" alt="" width="2000" class="cards"/></a>
+      <h4>BLOG</h4>
+      <p class="tag">Click to go to Blog</p>
+<!--      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+    </div>
+<!--
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+-->
+    <div class="thumbnail"> <a href="#"><img src="images/projectsandpaper.png" alt="" width="2000" class="cards"/></a>
+      <h4>PROJECTS & PAPERS </h4>
+      <p class="tag">Click to know about my projects and papers</p>
+<!--      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+    </div>
+    <div class="thumbnail"> <a href="https://drive.google.com/file/d/1_gLgyxsCx66QDQk9qtABi7cwIsV4yZGK/view?usp=sharing"><img src="images/download.png" alt="" width="2000" class="cards"/></a>
+      <h4>DOWNLOAD RESUME</h4>
+      <p class="tag">Click to download Resume</p>
+<!--      <p class="text_column">Please click on the link above to download the Resume in PDF format. </p>-->
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">GET IN TOUCH WITH ME</p>
+    <div class="button" onclick="window.location.href='mailto:abhishek56987@gmail.com'">EMAIL ME </div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>ALPHAAZMUTH</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
